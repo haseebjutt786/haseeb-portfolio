@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhammad Haseeb Akram – Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f7fb;--surface:#ffffff;--ink:#101828;--muted:#5b6475;--line:#dde3ee;--accent:#2347e8;--accent-ink:#ffffff;--bar:#e8edf6;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0d1220;--surface:#151c2f;--ink:#eef1f8;--muted:#9aa5bb;--line:#26304a;--accent:#7b93ff;--accent-ink:#0d1220;--bar:#1c2540;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0d1220;--surface:#151c2f;--ink:#eef1f8;--muted:#9aa5bb;--line:#26304a;--accent:#7b93ff;--accent-ink:#0d1220;--bar:#1c2540;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 "DM Sans",system-ui,sans-serif}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;line-height:1.1;margin:0}
+header.hero{padding:4.5rem 0 3rem}
+h1{font-size:clamp(2.4rem,7vw,4.4rem);font-weight:700;letter-spacing:-.03em;max-width:16ch}
+.lead{color:var(--muted);max-width:38rem;margin:1.25rem 0 1.75rem;font-size:1.15rem}
+.btns{display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:.6rem;font-weight:500;text-decoration:none;border:1px solid var(--line);color:var(--ink);background:var(--surface);cursor:pointer;font-size:1rem;font-family:inherit}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+section{padding:2.5rem 0}
+h2{font-size:1.9rem;margin-bottom:.4rem}
+.sub{color:var(--muted);margin:0 0 1.75rem}
+.project{background:var(--surface);border:1px solid var(--line);border-radius:.9rem;overflow:hidden;margin-bottom:1.75rem}
+.chrome{display:flex;align-items:center;gap:.75rem;background:var(--bar);padding:.6rem .9rem;border-bottom:1px solid var(--line)}
+.dots{display:flex;gap:.35rem}.dots i{width:.65rem;height:.65rem;border-radius:50%;background:var(--line);display:block}
+.url{flex:1;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:.4rem;padding:.2rem .7rem;font-size:.85rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.body{padding:1.5rem}
+.body h3{font-size:1.5rem;margin-bottom:.5rem}
+.body p{margin:0 0 1rem;color:var(--muted);max-width:42rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.25rem}
+.tags span{font-size:.85rem;border:1px solid var(--line);border-radius:2rem;padding:.15rem .7rem}
+ul.feat{margin:0 0 1.25rem;padding-left:1.1rem;color:var(--muted)}
+.demo{border:1px dashed var(--line);border-radius:.6rem;padding:.9rem 1rem;margin-bottom:1.25rem;font-size:.95rem}
+.demo b{display:block;margin-bottom:.4rem}
+.cred{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-top:.25rem}
+.cred code{background:var(--bar);padding:.15rem .5rem;border-radius:.3rem;font-size:.9rem}
+.copy{font:inherit;font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:.4rem;padding:.1rem .55rem;cursor:pointer}
+.skills{display:flex;flex-wrap:wrap;gap:.6rem}
+.skills span{background:var(--surface);border:1px solid var(--line);border-radius:.5rem;padding:.45rem .9rem}
+.job{border-left:3px solid var(--accent);padding:.1rem 0 .1rem 1rem;margin-bottom:1.5rem}.job h3{font-size:1.2rem}.job small{color:var(--muted)}.job ul{margin:.5rem 0 0;padding-left:1.1rem;color:var(--muted)}.sk{margin:0 0 .9rem}.sk b{display:block;font-weight:500;margin-bottom:.35rem}footer{padding:2.5rem 0 3rem;border-top:1px solid var(--line);color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:rise .6s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <h1>Muhammad Haseeb Akram</h1>
+  <p class="lead">Full Stack Developer (MERN, Next.js, TypeScript) with over a year of experience building responsive web apps with login systems, dashboards and REST APIs. I’m applying for the CMIT internship, and the live projects below show my work.</p>
+  <div class="btns"><a class="btn primary" href="#projects">See my projects</a><a class="btn" href="#contact">Contact me</a></div>
+</header>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <p class="sub">Over a year of professional work in Islamabad.</p>
+  <div class="job"><h3>Full Stack Developer (MERN), HA Technology</h3><small>April 2026 – October 2026</small><ul><li>Built features end to end with MongoDB, Express.js, React.js, Node.js and Next.js</li><li>Improved page speed and SEO with Next.js server-side rendering, static generation and API routes, and reduced bundle size with Webpack</li><li>Added JWT authentication and designed MongoDB schemas</li><li>Worked in Agile sprints and took part in code reviews</li></ul></div>
+  <div class="job"><h3>Web Frontend Developer, Evamp &amp; Saanga</h3><small>August 2025 – April 2026</small><ul><li>Worked on the Lycamobile Ukraine platform, connecting frontend and backend APIs and building UI components under a senior developer</li><li>Built React.js features for an e-commerce project with reusable components and Redux Toolkit</li><li>Improved cross-browser performance and worked with backend engineers and designers using Git</li></ul></div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p class="sub">Each project has a live link. Where an admin area exists, use the demo login to explore it.</p>
+<article class="project"><div class="chrome"><div class="dots"><i></i><i></i><i></i></div><div class="url">react-ecommerce-frontend-bay.vercel.app</div></div><div class="body"><h3>Online Store – e-commerce web app</h3><p>An online shop with user login, cart and checkout, plus an admin dashboard for managing the store. Data is saved in the browser’s local storage, so this is a frontend project.</p><p><strong style="color:var(--ink)">My role:</strong> I built the whole frontend in React, including the pages, cart, checkout and admin dashboard, and used local storage to save the data instead of a backend.</p><div class="tags"><span>React.js</span><span>Tailwind CSS</span><span>Redux</span><span>Local storage</span></div><div class="demo"><b>Demo admin login</b><div class="cred">Email <code>admin@gmail.com</code><button class="copy" data-copy="admin@gmail.com">Copy</button>Password <code>12345</code><button class="copy" data-copy="12345">Copy</button></div></div><a class="btn primary" href="https://react-ecommerce-frontend-bay.vercel.app/" target="_blank" rel="noopener">Open live demo</a></div></article>
+<article class="project"><div class="chrome"><div class="dots"><i></i><i></i><i></i></div><div class="url">erp-project-njcz.vercel.app</div></div><div class="body"><h3>HRMS and Enterprise ERP portal</h3><p>A full-stack portal for HA Technology with dashboards for attendance, payroll, tasks and projects, so a company can manage its people and work in one place.</p><p><strong style="color:var(--ink)">My role:</strong> I built the features end to end, from the MongoDB schemas and JWT login to the React screens, at HA Technology.</p><div class="tags"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Tailwind CSS</span><span>Redux Toolkit</span></div><a class="btn primary" href="https://erp-project-njcz.vercel.app/" target="_blank" rel="noopener">Open live demo</a></div></article>
+<article class="project"><div class="chrome"><div class="dots"><i></i><i></i><i></i></div><div class="url">wqmis.phedkp.gov.pk</div></div><div class="body"><h3>KP PHED Water Quality Management Information System</h3><p>A Government of Khyber Pakhtunkhwa portal for monitoring water quality, with dashboards and reports for officials.</p><p><strong style="color:var(--ink)">My role:</strong> I worked only on the frontend design. I built the page layouts and styled the dashboards and reports with SCSS.</p><div class="tags"><span>React.js</span><span>SCSS</span><span>Government portal</span></div><a class="btn primary" href="https://wqmis.phedkp.gov.pk" target="_blank" rel="noopener">Open live site</a></div></article>
+<article class="project"><div class="chrome"><div class="dots"><i></i><i></i><i></i></div><div class="url">blood-donation-platform-lyart.vercel.app</div></div><div class="body"><h3>Blood Connect – blood donor finder</h3><p>A free platform that helps patients in Pakistan find blood donors fast. Users search by blood group and city, post emergency requests, and register as donors or volunteers.</p><p><strong style="color:var(--ink)">My role:</strong> I built the whole platform, including the donor search, emergency requests, login and SEO pages.</p><div class="tags"><span>React.js</span><span>Next.js</span><span>Tailwind CSS</span><span>SEO</span></div><a class="btn primary" href="https://blood-donation-platform-lyart.vercel.app" target="_blank" rel="noopener">Open live demo</a></div></article>
+<article class="project"><div class="chrome"><div class="dots"><i></i><i></i><i></i></div><div class="url">kbcompress.online</div></div><div class="body"><h3>KB Precision – image compressor</h3><p>A browser-based tool that compresses an image to an exact KB size, with presets for NADRA CNIC, passport, visa, LinkedIn and Rozee.pk photos. Nothing is uploaded, because everything runs in the browser.</p><p><strong style="color:var(--ink)">My role:</strong> I built the tool, including the Canvas compression with binary search, and launched it on my own domain.</p><div class="tags"><span>React.js</span><span>HTML5 Canvas</span><span>Tailwind CSS</span><span>SEO</span></div><a class="btn primary" href="https://www.kbcompress.online/" target="_blank" rel="noopener">Open live demo</a></div></article>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p class="sub">The tools I use every day.</p>
+  <div class="sk"><b>Frontend</b><div class="skills"><span>React.js</span><span>Next.js</span><span>TypeScript</span><span>JavaScript (ES6+)</span><span>HTML5 &amp; CSS3</span><span>SCSS</span><span>Tailwind CSS</span><span>Bootstrap</span><span>Redux Toolkit</span></div></div>
+  <div class="sk"><b>Backend</b><div class="skills"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>JWT authentication</span><span>MongoDB</span><span>Mongoose</span></div></div>
+  <div class="sk"><b>Tools and practices</b><div class="skills"><span>Git &amp; GitHub</span><span>Agile/Scrum</span><span>Code reviews</span><span>Vercel</span><span>SEO</span><span>Webpack</span></div></div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="job"><h3>BS Computer Science, University of Agriculture, Faisalabad</h3><small>Graduated 2023 · CGPA 3.06/4.00</small><ul><li>Final year project: E-commerce web application</li></ul></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="sub">I’m available to join immediately and happy to walk through any project.</p>
+  <div class="btns"><a class="btn primary" href="mailto:haseebakram273jb@gmail.com">haseebakram273jb@gmail.com</a><a class="btn" href="tel:+923414467213">0341-4467213</a><a class="btn" href="https://linkedin.com/in/haseeb-273jb" target="_blank" rel="noopener">LinkedIn</a></div>
+</section>
+</div>
+<footer><div class="wrap">© 2026 Muhammad Haseeb Akram</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=b.getAttribute('data-copy'),o=b.textContent;try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent=o},1500)})}catch(e){}})});
+</script>
+</body>
+</html>
